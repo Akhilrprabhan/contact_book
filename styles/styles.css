@@ -1,0 +1,36 @@
+
+
+.body-style{
+	background-color: grey;
+}
+
+
+.header-wrapper{
+	
+}
+
+.logo{
+	width: 80px;
+}
+
+.header-signin{
+	float: right;
+	margin-top: -50px;
+	margin-right: 50px;
+}
+
+.nav-bar{
+	background-color: yellow;
+}
+
+
+.container{
+	background-color: gold;
+	
+}
+
+
+.footer{
+	background-color: darkred;
+	
+}
