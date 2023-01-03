@@ -1,36 +1,84 @@
 
 
 .body-style{
-	background-color: grey;
+	background-color: white;
 }
 
-
-.header-wrapper{
-	
+.header-wrapper{	
 }
 
 .logo{
-	width: 80px;
+	width: 200px;
+    height: 48px;
 }
 
 .header-signin{
 	float: right;
-	margin-top: -50px;
-	margin-right: 50px;
+	margin-top: -80px;
+	margin-right: 80px;
 }
 
-.nav-bar{
-	background-color: yellow;
+.header-signin a{
+	text-decoration: none;
+	font-size: 20px;
+	color: #2e91bd;
 }
+
+.nav-bar-wrapper{
+	background-color: #6bb5efdb;
+    height: 40px;
+    margin-top: -2px;
+  } 
+    
+ .nav-nar-inner{
+ 	float: right;
+ 	margin-right: 600px;
+ }
+
+
+.nav-bar-contents{
+	margin: 10px 0px 0px 40px;
+	display:inline-block;
+}
+
+.nav-bar-contents a{
+	color: black;
+	text-decoration: none;
+}
+
 
 
 .container{
-	background-color: gold;
-	
+	background-color: #fff;
 }
 
 
+.container-wrapper{
+	display: grid;
+	padding: 30px 30px 30px 30px;
+}
+
+#table-wrapper{
+	align-content: center;
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+    display: grid;
+/*	background-color: #c6e1ed;*/
+}
+
+#table-wrapper tr:nth-child(odd){
+	align-content: center;
+	background-color: #51b9c729;
+}
+
+#table-wrapper tr:hover{
+}
+
+#table-wrapper td, #table-wrapper th{
+	border: 1px solid #4fb9d175;
+  	padding: 8px;
+}
+
 .footer{
-	background-color: darkred;
-	
+	padding: 3px 3px 3px 3px;
 }
