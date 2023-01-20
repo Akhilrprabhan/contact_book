@@ -9,7 +9,7 @@
 
 .logo{
 	width: 200px;
-    height: 48px;
+  height: 48px;
 }
 
 .header-signin{
@@ -25,15 +25,16 @@
 }
 
 .nav-bar-wrapper{
-	background-color: #6bb5efdb;
-    height: 40px;
-    margin-top: -2px;
-  } 
+	background-color: #6ab1d1d9;
+	border-radius: 25px;
+  height: 40px;
+  margin-top: -2px;
+} 
     
- .nav-bar-inner{
+.nav-bar-inner{
  	float: right;
  	margin-right: 500px;
- }
+}
 
 
 .nav-bar-contents{
@@ -42,29 +43,33 @@
 }
 
 .nav-bar-contents a{
-	color: black;
+	color:#444b4e;
 	text-decoration: none;
 }
 
-
-
 .container{
 	background-color: #fff;
+	margin-top: 10px;
+	border-radius: 25px;
+	border: 3px solid #4fb9d175;
 }
 
 
 .container-wrapper{
 	display: grid;
-	margin-top: 50px;
+	margin-top: -4px;
 	padding: 5px 30px 15px 30px;
+}
+
+.h3{
+	color: #444b4e;
 }
 
 #table-wrapper{
 	align-content: center;
-    width: 100%;
-    padding: 10px 10px 10px 10px;
-    display: grid;
-/*	background-color: #c6e1ed;*/
+  width: 100%;
+  padding: 10px 10px 10px 10px;
+  display: grid;
 }
 
 #table-wrapper tr:nth-child(odd){
@@ -75,12 +80,30 @@
 #table-wrapper tr:hover{
 }
 
-#table-wrapper td, #table-wrapper th{
+#table-wrapper th{
 	border: 1px solid #4fb9d175;
-  	padding: 8px;
+	font-family: monospace;
+	color:#03679b;
+  padding: 8px;
 }
 
-.hr{
+#table-wrapper td{
+	border: 1px solid #4fb9d175;
+	font-family: monospace;
+	color:#58362a;
+  padding: 8px;
+}
+
+a{
+	color: #03679b
+}
+
+.hr1{
+  border-style: solid;
+  border-color: #4fb9d175;
+}
+
+.hr2{
   border-style: solid;
   border-color: #5fbce5;
 }
