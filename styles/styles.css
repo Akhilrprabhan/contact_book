@@ -85,7 +85,7 @@
 	font-family: monospace;
 	color:#03679b;
   padding: 8px;
-  align-content: center;
+/*  align-content: center;*/
 }
 
 #table-wrapper td{
@@ -93,7 +93,7 @@
 	font-family: monospace;
 	color:#58362a;
   padding: 8px;
-  align-content: center;
+/*  align-content: center;*/
 }
 
 a{
